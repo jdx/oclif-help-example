@@ -31,5 +31,84 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`example-multi-js goodbye`](#example-multi-js-goodbye)
+* [`example-multi-js hello`](#example-multi-js-hello)
+* [`example-multi-js help [COMMAND]`](#example-multi-js-help-command)
+* [`example-multi-js sites`](#example-multi-js-sites)
+* [`example-multi-js sites:create`](#example-multi-js-sitescreate)
 
+## `example-multi-js goodbye`
+
+Describe the command here
+
+```
+USAGE
+  $ example-multi-js goodbye
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/goodbye.js](https://github.com/oclif/example-multi-js/blob/v1.8.3/src/commands/goodbye.js)_
+
+## `example-multi-js hello`
+
+Describe the command here
+
+```
+USAGE
+  $ example-multi-js hello
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/hello.js](https://github.com/oclif/example-multi-js/blob/v1.8.3/src/commands/hello.js)_
+
+## `example-multi-js help [COMMAND]`
+
+display help for example-multi-js
+
+```
+USAGE
+  $ example-multi-js help [COMMAND]
+
+ARGUMENTS
+  COMMAND  command to show help for
+
+OPTIONS
+  --all  see all commands in CLI
+```
+
+_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.0.5/src/commands/help.ts)_
+
+## `example-multi-js sites`
+
+sites/index
+
+```
+USAGE
+  $ example-multi-js sites
+```
+
+_See code: [src/commands/sites/index.js](https://github.com/oclif/example-multi-js/blob/v1.8.3/src/commands/sites/index.js)_
+
+## `example-multi-js sites:create`
+
+sites/create/index
+
+```
+USAGE
+  $ example-multi-js sites:create
+```
+
+_See code: [src/commands/sites/create/index.js](https://github.com/oclif/example-multi-js/blob/v1.8.3/src/commands/sites/create/index.js)_
 <!-- commandsstop -->
